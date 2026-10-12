@@ -23,7 +23,7 @@ import { AuthService } from './auth.service';
       <section class="quick-actions">
         <a class="dashboard-card accent" routerLink="/catalogos"><span>01</span><h2>Catálogos</h2><p>Administra materias primas, productos y proveedores.</p><b>Gestionar →</b></a>
         <a class="dashboard-card" routerLink="/trazabilidad"><span>02</span><h2>Trazabilidad</h2><p>Consulta el recorrido de lotes hacia atrás o adelante.</p><b>Consultar →</b></a>
-        <article class="dashboard-card"><span>03</span><h2>Próximamente</h2><p>Recepción, producción y controles de calidad.</p><small>En construcción</small></article>
+        <a class="dashboard-card" routerLink="/operaciones"><span>03</span><h2>Operaciones</h2><p>Registra recepciones, producciones y controles de calidad.</p><b>Registrar →</b></a>
       </section>
     </main>
   `

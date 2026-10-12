@@ -74,4 +74,15 @@ td small { display: block; color: #8b9890; margin-top: 4px; }
 .trace-item { display: flex; justify-content: space-between; gap: 20px; padding: 15px; border-radius: 10px; background: #f5f8f3; }
 .trace-item span { color: #718078; font-size: 14px; text-align: right; }
 @media (max-width: 760px) { .auth-layout { grid-template-columns: 1fr; } .brand-panel { min-height: 42vh; padding: 42px 28px; } .brand-mark { margin-bottom: 24px; } .form-panel { padding: 45px 28px; } .topbar { height: auto; padding: 20px 0; align-items: flex-start; gap: 15px; } .user-area { flex-direction: column; align-items: flex-end; gap: 6px; } .cards { grid-template-columns: 1fr; } .welcome { padding: 55px 0 30px; } }
+.operation-layout { display: grid; grid-template-columns: minmax(300px, .8fr) minmax(260px, .45fr); gap: 20px; }
+.operation-form h2, .help-panel h2 { margin-bottom: 22px; }
+.two-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.help-panel { background: #173b31; color: #f3f7ef; }
+.help-panel .muted { color: #b9c9c0; }
+.help-icon { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: #c6f36b; color: #173b31; font-weight: 700; margin-bottom: 24px; }
+.workflow { display: grid; grid-template-columns: 32px 1fr; gap: 14px 12px; margin-top: 32px; align-items: center; }
+.workflow span { color: #c6f36b; font-size: 12px; font-weight: 700; }
+.workflow p { margin: 0; color: #d3ded7; font-size: 14px; line-height: 1.4; }
+.success { margin: 18px 0 -10px; color: #4c853e; font-size: 14px; }
 @media (max-width: 760px) { .auth-layout { grid-template-columns: 1fr; } .brand-panel { min-height: 42vh; padding: 42px 28px; } .brand-mark { margin-bottom: 24px; } .form-panel { padding: 45px 28px; } .topbar { height: auto; padding: 20px 0; align-items: flex-start; gap: 15px; } .user-area { flex-direction: column; align-items: flex-end; gap: 6px; } .cards, .quick-actions, .catalog-layout, .trace-search { grid-template-columns: 1fr; } .welcome, .page-heading { padding: 55px 0 30px; } .page-heading { align-items: start; flex-direction: column; } .trace-item { flex-direction: column; gap: 8px; } .trace-item span { text-align: left; } .table-panel { overflow-x: auto; } }
+@media (max-width: 760px) { .auth-layout { grid-template-columns: 1fr; } .brand-panel { min-height: 42vh; padding: 42px 28px; } .brand-mark { margin-bottom: 24px; } .form-panel { padding: 45px 28px; } .topbar { height: auto; padding: 20px 0; align-items: flex-start; gap: 15px; } .user-area { flex-direction: column; align-items: flex-end; gap: 6px; } .cards, .quick-actions, .catalog-layout, .trace-search, .operation-layout { grid-template-columns: 1fr; } .welcome, .page-heading { padding: 55px 0 30px; } .page-heading { align-items: start; flex-direction: column; } .trace-item { flex-direction: column; gap: 8px; } .trace-item span { text-align: left; } .table-panel { overflow-x: auto; } .two-fields { grid-template-columns: 1fr; } }
